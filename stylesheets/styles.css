@@ -1,0 +1,254 @@
+:root {
+  /* Cores */
+  --spacing-quarck: 4px;
+  --brand-color-primary-horta-puro: #24a076;
+  --brand-color-primary-horta-claro: #def1eb;
+  --brand-color-primary-horta-medio: #5cb094;
+  --brand-color-primary-horta-escuro: #186e51;
+  --brand-color-secondary-puro: #a35e8e;
+  --brand-color-secondary-claro: #f1e7ee;
+  --brand-color-secondary-medio: #b39dac;
+  --brand-color-secondary-escuro: #704162;
+  --neutral-color-high-puro: #eeeeee;
+  --neutral-color-high-claro: #fafafa;
+  --neutral-color-high-medio: #d4d4d4;
+  --neutral-color-high-escuro: #adadad;
+  --neutral-color-low-puro: #54412f;
+  --neutral-color-low-claro: #e6e3e0;
+  --neutral-color-low-medio: #614b36;
+  --neutral-color-low-escuro: #3b2d21;
+
+  /* Espaçamentos */
+  --spacing-quarck: 4px;
+  --spacing-nano: 8px;
+  --spacing-xxxs: 16px;
+  --spacing-xxs: 24px;
+  --spacing-xs: 32px;
+  --spacing-sm: 40px;
+  --spacing-md: 48px;
+  --spacing-lg: 56px;
+  --spacing-xl: 64px;
+  --spacing-xxl: 80px;
+  --spacing-xxxl: 120px;
+  --spacing-huge: 160px;
+  --spacing-giant: 200px;
+
+  /* Fontes */
+  --font-family-base: "Open Sans", sans-serif;
+  --font-family-brand: ;
+  --font-family-fallback: "Oswald", sans-serif;
+
+  /* Estilização Fontes */
+  --font-titulo-size: uppercase;
+  --font-titulo-peso: 400;
+  --font-link-peso: 700;
+
+  /* Altura das Fontes */
+  --line-height-default: 1.1em;
+  --line-height-xs:1.15em;
+  --line-height-sm:1.2em;
+  --line-height-md:1.3em;
+  --line-height-lg:1.5em;
+  --line-height-xl:1.7em;
+  --line-height-xxl:2em;
+
+  /* Pesos Fontes  */
+  --font-size-xxxs: 0.625rem;
+  --font-size-xxs: 0.875;
+  --font-size-xs: 1rem;
+  --font-size-sm: 1.25rem;
+  --font-size-md: 1.5rem;
+  --font-size-lg: 2rem;
+  --font-size-xl: 2.5rem
+  --font-size-xxl: 3rem;
+  --font-size-xxxl: 4rem;
+  --font-size-display: 5rem;
+  --font-size-giant: 6rem;
+
+  /* Bordas */
+  --border-radius-none: 0px;
+  --border-radius-sm: 8px;
+  --border-radius-md: 16px;
+  --border-radius-lg: 24px;
+  --border-radius-pill: ;
+  --border-radius-circular: 50%;
+}
+
+body {
+  color: var(--neutral-color-low-escuro);
+}
+
+body.home {
+  background-color: var(--neutral-color-high-claro);
+  font-family: var(--font-family-base);
+  font-size:var(--font-size-xs);
+}
+
+a {
+  text-decoration: none;
+  color: var(--brand-color-primary-horta-puro);
+}
+a:hover {
+  text-decoration: none;
+  color: var(--brand-color-primary-horta-medio);
+}
+a:active {
+  text-decoration: none;
+  color: var(--brand-color-primary-horta-escuro);
+}
+
+.body-width {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.grid-container {
+  display: grid;
+}
+.grid-container.full {
+  grid-template-columns: 100%;
+}
+
+.grid-container.half {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 8px;
+}
+
+.home h1 {
+  font-family: var(--font-family-fallback);
+  color: var(--brand-color-secondary-puro);
+  text-transform: var(--font-titulo-size);
+  font-weight: var(--font-titulo-peso);
+}
+
+.home h1 span {
+  display: block;
+}
+
+.home p {
+  font-family: var(--font-family-base);
+}
+
+.home .splide li {
+  margin: var(--spacing-nano);
+}
+
+.home header .btn-list ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 0;
+}
+
+.home header .btn-list ul li {
+  padding: 0 var(--spacing-nano);
+}
+
+.home header .btn-list li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: var(--neutral-color-low-escuro);
+  font-size: var(--font-size-xs);
+  text-align: center;
+}
+.home header .btn-list li i {
+  border: 1px solid var(--neutral-color-high-puro);
+  border-radius: var(--border-radius-circular);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+}
+
+.home .list .card {
+  border: 1px solid var(--neutral-color-high-medio);
+  border-radius:var(--border-radius-sm);
+}
+
+.home .list .card .card-header img {
+  width: 100%;
+  height: auto;
+  border-radius:6px 6px 0 0;
+}
+
+.home .list .card .card-body {
+  padding: var(--spacing-xxxs);
+}
+
+.home .list h2 {
+  margin: 0;
+  margin-bottom:var(--font-size-xs);
+}
+
+.home .list .card .card-body h3 {
+  margin: 0;
+  margin-bottom: var(--spacing-quarck);
+}
+
+.home .list .card .card-body p {
+  margin: 0;
+  margin-bottom:var(--spacing-sm);
+}
+
+.home .list .card .card-body a {
+  font-weight: var(--font-link-peso);
+}
+
+.home hr {
+  width: 100%;
+  border: 0; border-top: 1px solid rgba(0,0,0, 0.1);
+  margin-top: var(--spacing-xs);
+  margin-bottom: var(--spacing-xs);
+}
+
+.home .list .list-item a {
+  color: var(--neutral-color-low-escuro);
+}
+
+.home .list .list-item h3 {
+  display: flex;
+  margin: 0;
+  margin-bottom: var(--spacing-quarck);
+}
+.home .list .list-item h3 i {
+  margin-left:auto;
+}
+.home .list .list-item p {
+  margin: 0;
+  margin-bottom: var(--spacing-xs);
+}
+
+.home .list .list-item a {
+  text-decoration: none;
+  color: var(--neutral-color-low-escuro);
+}
+
+.home .list .list-item a:hover {
+  text-decoration: none;
+  color: var(--neutral-color-low-medio);
+}
+
+.home .list .list-item a:active {
+  text-decoration: none;
+  color: var(--neutral-color-low-puro);
+}
+
+
+.home .list .list-item .card a {
+  text-decoration: none;
+  color: var(--brand-color-primary-horta-puro);
+}
+
+.home .list .list-item .card a:hover {
+  text-decoration: none;
+  color: var(--brand-color-primary-horta-medio);
+}
+
+.home .list .list-item .card a:active {
+  text-decoration: none;
+  color: var(--brand-color-primary-horta-escuro);
+}
+
+
