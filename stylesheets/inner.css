@@ -17,6 +17,26 @@ body.comprar-online .list .list-item:first-of-type label {
   color: var(--feedback-color-warning-puro);
 }
 
+body.comprar-online .list .list-item.lanchonete {
+  padding: var(--spacing-xxs) 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body.comprar-online .list .list-item.lanchonete a {
+  display: inline-flex;
+  color: var(--brand-color-primary-horta-puro);
+  font-weight: var(--font-link-peso);
+  padding: inherit;
+  border: none;
+}
+body.comprar-online .list .list-item.lanchonete a:hover {
+  color: var(--brand-color-primary-horta-medio);
+}
+body.comprar-online .list .list-item.lanchonete a:active {
+  color: var(--brand-color-primary-horta-escuro);
+}
+
 /* Fale Conosco */
 
 body.fale-conosco {
