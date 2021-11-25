@@ -104,6 +104,14 @@
   padding: 0 16px;
 }
 
+hr {
+  width: 100%;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: var(--spacing-xs);
+  margin-bottom: var(--spacing-xs);
+}
+
 /* Regras Globais */
 a {
   text-decoration: none;
@@ -124,3 +132,108 @@ body {
 }
 
 
+
+.list .list-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list .list-item a {
+  color: var(--neutral-color-low-escuro);
+  padding: var(--spacing-xxs) 0;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--neutral-color-high-puro);
+}
+
+ .list .list-item h3 {
+  display: flex;
+  margin: 0;
+  margin-bottom: var(--spacing-nano);
+}
+ .list .list-item h3 i {
+  margin-left: auto;
+  margin-top: auto;
+}
+.list .list-item p {
+  margin: 0;
+}
+
+.list .list-item label {
+  margin-bottom: var(--spacing-nano);
+}
+
+.list .list-item label i {
+  margin-right: var(--spacing-nano);
+}
+
+.list .list-item a {
+  text-decoration: none;
+  color: var(--neutral-color-low-escuro);
+}
+
+ .list .list-item a:hover {
+  text-decoration: none;
+  color: var(--neutral-color-low-medio);
+}
+
+ .list .list-item a:active {
+  text-decoration: none;
+  color: var(--neutral-color-low-puro);
+}
+
+
+.list .list-item .card a {
+  text-decoration: none;
+  color: var(--brand-color-primary-horta-puro);
+  border-bottom: none;
+}
+
+.list .list-item .card a:hover {
+  text-decoration: none;
+  color: var(--brand-color-primary-horta-medio);
+}
+
+.list .list-item .card a:active {
+  text-decoration: none;
+  color: var(--brand-color-primary-horta-escuro);
+}
+
+
+.card .card-body h3 {
+  margin: 0;
+  margin-bottom: var(--spacing-quarck);
+  font-size: var(--font-size-xs);
+}
+
+.card .card-body h4 {
+  margin: 0;
+  margin-bottom: var(--spacing-quarck);
+}
+
+.card .card-body p {
+  margin: 0;
+  margin-bottom: var(--spacing-xxxs);
+  font-size: var(--font-size-xs);
+}
+
+.card .card-body a {
+  font-weight: var(--font-link-peso);
+  margin-top: auto;
+}
+
+.card a {
+  text-decoration: none;
+  color: var(--brand-color-primary-horta-puro);
+}
+
+.card a:hover {
+  text-decoration: none;
+  color: var(--brand-color-primary-horta-medio);
+}
+
+.card a:active {
+  text-decoration: none;
+  color: var(--brand-color-primary-horta-escuro);
+}
