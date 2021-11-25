@@ -85,8 +85,6 @@
 
 /* Grid & Framework */
 .body-width {
-  max-width: 600px;
-  margin: 0 auto;
 }
 .grid-container {
   display: grid;
@@ -102,6 +100,8 @@
 
 .padding-wrap {
   padding: 0 16px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 hr {
