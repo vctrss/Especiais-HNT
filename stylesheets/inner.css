@@ -22,3 +22,22 @@ header nav a:active {
 header nav a i {
   padding: var(--spacing-xxs);
 }
+
+header h1 {
+  font-family: var(--font-family-fallback);
+  color: var(--neutral-color-high-puro);
+  text-transform: var(--font-titulo-size);
+  font-weight: var(--font-titulo-peso);
+  font-size: var(--font-size-md);
+}
+
+header p {
+  color: var(--neutral-color-high-puro);
+}
+
+.list .list-item:first-of-type label {
+  font-family: var(--font-family-fallback);
+  text-transform: var(--font-titulo-size);
+  font-weight: var(--font-titulo-peso);
+  color: var(--feedback-color-warning-puro);
+}
