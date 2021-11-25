@@ -155,6 +155,7 @@ body {
  .list .list-item h3 i {
   margin-left: auto;
   margin-top: auto;
+  margin-bottom: auto;
   font-size: var(--font-size-xxs);
 }
 .list .list-item p {
