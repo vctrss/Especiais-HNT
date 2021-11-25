@@ -85,6 +85,7 @@
 
 /* Grid & Framework */
 .body-width {
+  padding-bottom: var(--spacing-md);
 }
 .grid-container {
   display: grid;
