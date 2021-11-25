@@ -1,3 +1,4 @@
+/* Comprar online  */
 body.comprar-online {
   background-color: var(--neutral-color-high-claro);
   font-family: var(--font-family-base);
@@ -5,8 +6,32 @@ body.comprar-online {
   margin: 0;
 }
 
-header {
+body.comprar-online header {
   background-color: var(--brand-color-secondary-puro);
+}
+
+body.comprar-online .list .list-item:first-of-type label {
+  font-family: var(--font-family-fallback);
+  text-transform: var(--font-titulo-size);
+  font-weight: var(--font-titulo-peso);
+  color: var(--feedback-color-warning-puro);
+}
+
+/* Fale Conosco */
+
+body.fale-conosco {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-xs);
+  margin: 0;
+}
+
+body.fale-conosco header {
+  background-color: var(--brand-color-primary-horta-puro);
+}
+
+body.fale-conosco .list .list-item:nth-of-type(3) {
+  padding: var(--spacing-xxs) 0;
+  border-bottom: none;
 }
 
 header nav a {
@@ -33,11 +58,4 @@ header h1 {
 
 header p {
   color: var(--neutral-color-high-puro);
-}
-
-.list .list-item:first-of-type label {
-  font-family: var(--font-family-fallback);
-  text-transform: var(--font-titulo-size);
-  font-weight: var(--font-titulo-peso);
-  color: var(--feedback-color-warning-puro);
 }

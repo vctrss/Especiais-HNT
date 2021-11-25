@@ -123,8 +123,10 @@ body.home {
 .home .list .list-item:nth-of-type(2) .card:nth-of-type(1) i {
   color: var(--brand-color-secondary-puro);
   margin-bottom: var(--spacing-nano);
+  font-size: var(--font-size-md);
 }
 .home .list .list-item:nth-of-type(2) .card:nth-of-type(2) i {
   color: var(--highlight-color-puro);
   margin-bottom: var(--spacing-nano);
+  font-size: var(--font-size-md);
 }

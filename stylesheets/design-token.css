@@ -167,6 +167,7 @@ body {
 
 .list .list-item label i {
   margin-right: var(--spacing-nano);
+  font-size: var(--font-size-md);
 }
 
 .list .list-item a {
