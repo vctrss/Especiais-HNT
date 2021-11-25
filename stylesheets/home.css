@@ -57,6 +57,7 @@ body.home {
   align-items: center;
   width: 56px;
   height: 56px;
+  font-size: var(--font-size-md);
 }
 .home header .btn-list h2 {
   font-size: var(--font-size-xs);
