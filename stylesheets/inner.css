@@ -1,0 +1,96 @@
+body.comprar-online {
+  background-color: var(--neutral-color-high-claro);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-xs);
+  margin: 0;
+}
+
+header {
+  background-color: var(--brand-color-secondary-puro);
+}
+
+
+
+:root {
+  /* Cores */
+  --spacing-quarck: 4px;
+  --brand-color-primary-horta-puro: #24a076;
+  --brand-color-primary-horta-claro: #def1eb;
+  --brand-color-primary-horta-medio: #5cb094;
+  --brand-color-primary-horta-escuro: #186e51;
+  --brand-color-secondary-puro: #a35e8e;
+  --brand-color-secondary-claro: #f1e7ee;
+  --brand-color-secondary-medio: #b39dac;
+  --brand-color-secondary-escuro: #704162;
+  --neutral-color-high-puro: #eeeeee;
+  --neutral-color-high-claro: #fafafa;
+  --neutral-color-high-medio: #d4d4d4;
+  --neutral-color-high-escuro: #adadad;
+  --neutral-color-low-puro: #54412f;
+  --neutral-color-low-claro: #e6e3e0;
+  --neutral-color-low-medio: #614b36;
+  --neutral-color-low-escuro: #3b2d21;
+  --feedback-color-warning-puro:#DB4039;
+  --feedback-color-warning-claro:#FAE3E2;
+  --feedback-color-warning-medio:#9C2E28;
+  --feedback-color-warning-escuro:#5C1B18;
+  --highlight-color-puro:#FAA61A;
+  --highlight-color-claro:#FEF2DD;
+  --highlight-color-medio:#C78214;
+  --highlight-color-escuro:#7A500C;
+
+  /* Espaçamentos */
+  --spacing-quarck: 4px;
+  --spacing-nano: 8px;
+  --spacing-xxxs: 16px;
+  --spacing-xxs: 24px;
+  --spacing-xs: 32px;
+  --spacing-sm: 40px;
+  --spacing-md: 48px;
+  --spacing-lg: 56px;
+  --spacing-xl: 64px;
+  --spacing-xxl: 80px;
+  --spacing-xxxl: 120px;
+  --spacing-huge: 160px;
+  --spacing-giant: 200px;
+
+  /* Fontes */
+  --font-family-base: "Open Sans", sans-serif;
+  --font-family-brand: ;
+  --font-family-fallback: "Oswald", sans-serif;
+
+  /* Estilização Fontes */
+  --font-titulo-size: uppercase;
+  --font-titulo-peso: 400;
+  --font-link-peso: 700;
+
+  /* Altura das Fontes */
+  --line-height-default: 1.1em;
+  --line-height-xs:1.15em;
+  --line-height-sm:1.2em;
+  --line-height-md:1.3em;
+  --line-height-lg:1.5em;
+  --line-height-xl:1.7em;
+  --line-height-xxl:2em;
+
+  /* Pesos Fontes  */
+  --font-size-xxxs: 0.625rem;
+  --font-size-xxs: 0.875rem;
+  --font-size-xs: 1rem;
+  --font-size-sm: 1.25rem;
+  --font-size-md: 1.5rem;
+  --font-size-lg: 2rem;
+  --font-size-xl: 2.5rem
+  --font-size-xxl: 3rem;
+  --font-size-xxxl: 4rem;
+  --font-size-display: 5rem;
+  --font-size-giant: 6rem;
+
+  /* Bordas */
+  --border-radius-none: 0px;
+  --border-radius-sm: 8px;
+  --border-radius-md: 16px;
+  --border-radius-lg: 24px;
+  --border-radius-pill: ;
+  --border-radius-circular: 50%;
+}
