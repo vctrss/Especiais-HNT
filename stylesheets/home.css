@@ -25,6 +25,14 @@ body.home {
   margin: var(--spacing-nano);
 }
 
+.home .splide li a {
+  color: var(--neutral-color-low-escuro);
+  text-align: center;
+}
+.home .splide li a p {
+  margin: var(--spacing-nano) 0;
+}
+
 .home header .btn-list ul {
   display: flex;
   justify-content: space-evenly;
