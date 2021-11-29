@@ -33,6 +33,27 @@ body.home {
   margin: var(--spacing-nano) 0;
 }
 
+.home .splide__pagination__page.is-active {
+  background: var(--brand-color-primary-puro);
+}
+
+.home .splide {
+  margin-bottom: var(--spacing-xs);
+}
+
+.home .splide .splide__arrow {
+  background: var(--neutral-color-high-claro);
+  top: calc(50% - 13px);
+}
+
+.home .splide .splide__arrow svg {
+  fill: var(--brand-color-primary-puro);
+}
+
+.home .splide .splide__pagination {
+  bottom: -1em;
+}
+
 .home header .btn-list ul {
   display: flex;
   justify-content: space-evenly;
@@ -115,7 +136,7 @@ body.home {
 }
 
 .home .list .list-item:nth-of-type(1) label i {
-  color: var(--brand-color-primary-horta-puro);
+  color: var(--brand-color-primary-puro);
 }
 
 .home .list .list-item:nth-of-type(2) h3 {

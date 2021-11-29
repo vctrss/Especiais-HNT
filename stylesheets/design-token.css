@@ -1,10 +1,10 @@
 :root {
   /* Cores */
   --spacing-quarck: 4px;
-  --brand-color-primary-horta-puro: #24a076;
-  --brand-color-primary-horta-claro: #def1eb;
-  --brand-color-primary-horta-medio: #5cb094;
-  --brand-color-primary-horta-escuro: #186e51;
+  --brand-color-primary-puro: #24a076;
+  --brand-color-primary-claro: #def1eb;
+  --brand-color-primary-medio: #5cb094;
+  --brand-color-primary-escuro: #186e51;
   --brand-color-secondary-puro: #a35e8e;
   --brand-color-secondary-claro: #f1e7ee;
   --brand-color-secondary-medio: #b39dac;
@@ -116,15 +116,15 @@ hr {
 /* Regras Globais */
 a {
   text-decoration: none;
-  color: var(--brand-color-primary-horta-puro);
+  color: var(--brand-color-primary-puro);
 }
 a:hover {
   text-decoration: none;
-  color: var(--brand-color-primary-horta-medio);
+  color: var(--brand-color-primary-medio);
 }
 a:active {
   text-decoration: none;
-  color: var(--brand-color-primary-horta-escuro);
+  color: var(--brand-color-primary-escuro);
 }
 
 body {
@@ -190,18 +190,18 @@ body {
 
 .list .list-item .card a {
   text-decoration: none;
-  color: var(--brand-color-primary-horta-puro);
+  color: var(--brand-color-primary-puro);
   border-bottom: none;
 }
 
 .list .list-item .card a:hover {
   text-decoration: none;
-  color: var(--brand-color-primary-horta-medio);
+  color: var(--brand-color-primary-medio);
 }
 
 .list .list-item .card a:active {
   text-decoration: none;
-  color: var(--brand-color-primary-horta-escuro);
+  color: var(--brand-color-primary-escuro);
 }
 
 
@@ -229,15 +229,15 @@ body {
 
 .card a {
   text-decoration: none;
-  color: var(--brand-color-primary-horta-puro);
+  color: var(--brand-color-primary-puro);
 }
 
 .card a:hover {
   text-decoration: none;
-  color: var(--brand-color-primary-horta-medio);
+  color: var(--brand-color-primary-medio);
 }
 
 .card a:active {
   text-decoration: none;
-  color: var(--brand-color-primary-horta-escuro);
+  color: var(--brand-color-primary-escuro);
 }

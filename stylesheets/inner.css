@@ -25,16 +25,16 @@ body.comprar-online .list .list-item.lanchonete {
 
 body.comprar-online .list .list-item.lanchonete a {
   display: inline-flex;
-  color: var(--brand-color-primary-horta-puro);
+  color: var(--brand-color-primary-puro);
   font-weight: var(--font-link-peso);
   padding: inherit;
   border: none;
 }
 body.comprar-online .list .list-item.lanchonete a:hover {
-  color: var(--brand-color-primary-horta-medio);
+  color: var(--brand-color-primary-medio);
 }
 body.comprar-online .list .list-item.lanchonete a:active {
-  color: var(--brand-color-primary-horta-escuro);
+  color: var(--brand-color-primary-escuro);
 }
 
 /* Fale Conosco */
@@ -46,7 +46,7 @@ body.fale-conosco {
 }
 
 body.fale-conosco header {
-  background-color: var(--brand-color-primary-horta-puro);
+  background-color: var(--brand-color-primary-puro);
 }
 
 body.fale-conosco .list .list-item:nth-of-type(3) {
@@ -55,7 +55,7 @@ body.fale-conosco .list .list-item:nth-of-type(3) {
 }
 
 body.fale-conosco .list .list-item:nth-of-type(3) a {
-  color: var(--brand-color-primary-horta-puro);
+  color: var(--brand-color-primary-puro);
 }
 
 header nav a {
