@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", function () {
     height: "auto",
     focus: "center",
     autoWidth: true,
-    arrows: false,
-    pagination: false,
+    arrows: true,
+    pagination: true,
   });
   splide.mount();
 });
